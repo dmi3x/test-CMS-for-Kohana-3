@@ -1,0 +1,1 @@
+This is test CMS for Kohana 3
