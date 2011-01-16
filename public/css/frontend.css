@@ -1,0 +1,34 @@
+html, body { font-size:14px; font-family:Tahoma; background:#fbfaef; padding:0px; margin:0px; border:none; height:100%; }
+body { }
+img { border:none; }
+a { color:#58391c; }
+a:hover { color:#58391c; text-decoration:none;  }
+p { font-size:12px; line-height:18px; }
+
+#wrap { min-height:100%; _height:100%; }
+h1, h2, h3, h4 { color:#46351d; font-weight:normal; }
+h1 { font-size:26px; margin:5px 0px 10px 0px; }
+h2 { font-size:20px; }
+
+#container { margin:0px auto; width:980px; }
+#header { height:130px; position:relative; ; }
+#header .logo { position:absolute; top:5px; left:0px; color:#6699ff; font-size:28px; text-decoration:none; padding:20px; }
+#footer { height:20px; margin-top:-20px; text-align:center;  }
+
+#messbox { position:fixed; top:10px; left:10px; padding:10px 15px; background:#fff; z-index:9999; font-size:20px; font-family:Arial; display:none;
+	    -moz-border-radius: 10px; -webkit-border-radius: 5px; border-radius:10px;
+	    -moz-box-shadow:0px 0px 10px #888; -webkit-box-shadow:0px 0px 10px #888; box-shadow:0px 0px 10px #888;
+	 }
+#messbox.ok { background:#380; color:#fff; border:1px solid #370; display:block; }
+#messbox.err { background:#e00; color:#fff; border:1px solid #d00; display:block; }
+
+#header .changeLang { position:absolute; top:20px; right:20px; }
+#header .menu { position:absolute; top:80px; left:0px; font-size:18px;  }
+#header .menu a { padding:0px 20px; }
+
+#outer { background:#fff; padding:20px; }
+#outer .left_column { float:left; width:200px; }
+#outer .main_column.right { float:left; width:740px; }
+
+.news .item { margin:15px 0px; }
+.news .item .date { color:#aaa; font-size:12px; }

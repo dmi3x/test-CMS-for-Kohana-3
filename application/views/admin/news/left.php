@@ -1,0 +1,1 @@
+<p><a class="button" href="/admin/news/add/<?php echo $structureId?>">Add news</a></p>
